@@ -21,6 +21,3 @@ while len(txnBuffer) > 0:
     ## Make a block
     myBlock = makeBlock(txnList,chain)
     chain.append(myBlock)
-print(chain[0])
-print(chain[1])
-print(state)
